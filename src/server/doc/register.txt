@@ -1,0 +1,9 @@
+Welcome!
+
+Blah, blah *and blah* before anything else.
+
+Please go to ${url} to set your password.
+
+Sincerely yours,
+
+Blah

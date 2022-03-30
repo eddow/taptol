@@ -1,0 +1,20 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"outDir": "../../dst/server/",
+		"baseUrl": "./",
+		"sourceRoot": "src/server",
+		"esModuleInterop": true,
+		"lib": [
+			"es2020",
+			"es5",
+			"es6"
+		],
+		"paths": {
+			"@/*": ["./*"],
+			"@obj/*": ["../object/*"]
+		}
+	},
+	"include": ["**/*", "../object/**/*"],
+	"exclude" : ["**/*.test.ts"]
+}

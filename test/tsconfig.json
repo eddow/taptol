@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"sourceRoot": "test",
+		"target": "es5",
+		"module": "commonjs",
+		"sourceMap": true,
+		"strict": true,
+		"esModuleInterop": true,
+		"lib": [
+			"es2020",
+			"es5",
+			"es6"
+		],
+		"paths": {
+			"@/*": ["../src/server/*"],
+			"@obj/*": ["../src/object/*"]
+		}
+	}
+}

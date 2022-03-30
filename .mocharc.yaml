@@ -1,0 +1,6 @@
+exit: true
+require:
+  - ts-node/register
+  - tsconfig-paths/register
+file:
+  - test/api/db-mgt.ts

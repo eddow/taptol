@@ -1,0 +1,33 @@
+users:
+  - email: spec@s.pec
+    name: McSpec
+    role: spec
+    pass: MD5:pw-spec
+    _id: $specialist1
+  - email: cust@s.pec
+    name: McCust
+    role: cust
+    pass: MD5:pw-cust
+    _id: $customer1
+  - email: adm@s.pec
+    name: Admin
+    role: adm
+    pass: MD5:pw-adm
+services:
+  - specialist: $specialist1
+    type: cln
+    rate: 15
+    description: Lorem ipsum Cleaning service
+    startHour: 8.5
+    endHour: 12
+  - specialist: $specialist1
+    type: crp
+    rate: 25
+    description: Lorem ipsum Carpentry service
+    startHour: 13.5
+    endHour: 17
+projects:
+  - specialist: $specialist1
+    customer: $customer1
+    description: Lorem ipsum Some project
+    stage: prop

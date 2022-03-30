@@ -1,0 +1,28 @@
+{
+	"compilerOptions": {
+		"rootDir": ".",
+		"outDir": "./dst/client/",
+		"baseUrl": "./src/client/",
+		"sourceMap": true,
+		"inlineSources": true,
+		"noImplicitAny": false,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+		"target": "es5",
+		"lib": [
+			"es5",
+			"es6",
+			"es2020",
+			"dom"
+		],
+		"allowSyntheticDefaultImports": true,
+		"typeRoots": ["./node_modules/@types", "./src/object"],
+		"paths": {
+			"@/*": ["./*"],
+			"@obj/*": ["../object/*"]
+		}
+	},
+	"include": ["src/client/**/*", "src/object/**/*"],
+	"exclude": ["**/*.spec.ts"]
+}

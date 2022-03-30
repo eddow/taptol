@@ -1,0 +1,4 @@
+node_modules
+dist
+semantic
+private.ts
