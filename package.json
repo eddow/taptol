@@ -1,7 +1,7 @@
 {
   "name": "specialists",
   "version": "1.0.0",
-  "description": "toptal test project",
+  "description": "Speed-code MENV demo SPA",
   "main": "dist/server.js",
   "scripts": {
     "start": "concurrently \"npm:watch:server\" \"npm:watch:client\" \"npm:serve\"",
